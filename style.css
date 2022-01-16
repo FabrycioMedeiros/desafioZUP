@@ -19,10 +19,26 @@ main {
     position: relative;
 }
 
-main > section > img {
+td > img {
     height: 300px;
     margin: 15px 0;
     width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+li {
+    list-style-type: none;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+p {
+    list-style-type: none;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
 }
 
 main > section > button {
@@ -37,10 +53,12 @@ main > section > button {
     line-height: 20px;
     padding: 9px 23px;
     text-transform: uppercase;
+    align-content: stretch;
+    width: 100%;
+    margin-top: 30px;
+    
 }
 
-#detalhes-container{
-    font-weight: bold;
-    list-style-type: none;
-    width: 90%;
-}
+
+
+
