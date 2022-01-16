@@ -56,7 +56,7 @@ main > section > button {
     align-content: stretch;
     width: 100%;
     margin-top: 30px;
-    
+    cursor: pointer;
 }
 
 
