@@ -27,14 +27,15 @@ td > img {
     padding-right: 15px;
 }
 
-li {
+td:nth-child(1) {
     list-style-type: none;
     font-weight: bold;
     color: black;
     text-transform: uppercase;
+    padding-left: 10px;
 }
 
-p {
+td:nth-child(2) {
     list-style-type: none;
     font-weight: bold;
     color: white;
